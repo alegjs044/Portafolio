@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin-top:20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2{
+  text-align: center;
+  margin-top:20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background: rgb(163,209,177);
+    background: linear-gradient(90deg, rgba(163,209,177,1) 0%, rgba(180,227,255,0.8491771708683473) 48%, rgba(255,206,226,0.9416141456582633) 100%);
+
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    background: rgb(29,52,131);
+background: linear-gradient(90deg, rgba(29,52,131,0.10968137254901966) 0%, rgba(180,227,255,0.24413515406162467) 48%, rgba(13,148,199,0.17690826330532217) 100%);
+  }
+  
+  .iconos-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .iconos-contacto li {
+    margin: 10px 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .iconos-contacto li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .iconos-contacto a img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .iconos-contacto .texto-icono {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  /* Ajustes responsivos */
+  @media (max-width: 768px) {
+    .iconos-contacto li {
+      margin: 5px; /* Reduce el margen para dispositivos más pequeños */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .iconos-contacto li {
+      flex-direction: column; /* Cambia la disposición a vertical en dispositivos más pequeños */
+      align-items: center;
+    }
+  
+    .iconos-contacto li a {
+      flex-direction: row;
+      gap: 0; /* Restablece el espacio horizontal para dispositivos más pequeños */
+      margin-top: 50px; /* Agrega un margen superior para separar verticalmente los elementos */
+    }
+  }
+  .foto {
+    position: absolute;
+    top: 0;
+    left: 29px; /* Ajusta la distancia desde el borde derecho */
+    height: 170px; /* Ajusta la altura de la foto */
+    width: 18%;
+    border-right: 10px solid black; /* Ajusta el ancho y color del borde */
+  }
+  
+.container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}

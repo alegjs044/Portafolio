@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.20.2",
+    "css-loader": "^6.8.1",
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.2",
+    "node-sass": "^9.0.0",
+    "nodemon": "^2.0.22",
+    "sass-loader": "^13.3.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.86.0",
+    "webpack-dev-middleware": "^6.1.1",
+    "webpack-livereload-plugin": "^3.0.2"
+  },
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "Proyecto con Node.js y Express",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "babel-node src/server.js",
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alejandra Guzman Jimenez",
+  "license": "MIT"
+}

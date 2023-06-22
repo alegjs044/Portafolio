@@ -1,0 +1,19 @@
+.index{
+    display: flex;
+    justify-content: space-between;
+}
+.left-i{
+
+}
+.right-i{
+    
+}
+.enlaces-contacto {
+    display: flex;
+  }
+  
+  .enlaces-contacto img {
+    width: 50px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+    margin-right: 10px; /* Espaciado entre las imágenes */
+  }
+  
